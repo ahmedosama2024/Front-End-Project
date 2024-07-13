@@ -1,0 +1,26 @@
+.img{
+    margin: 20vh 0 10vh 0;
+    object-fit: contain;
+    width: 90%;
+    height: 60vh;
+}
+.div{
+    margin-left: 1%;
+}
+.star{
+    color: goldenrod;
+    margin-bottom: 10vh;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.cart{
+    transition: 0.5s;
+    position: relative;
+    right: 10px;
+    cursor: pointer;
+}
+.cart:hover{
+    color:  rgba(214, 22, 22, 0.801);
+}

@@ -1,0 +1,40 @@
+.container{
+    margin: 20vh auto 10vh auto;
+    text-align: center;
+    width: 90%;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+.product{
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 25%);
+    padding: 2%;
+    div{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        h5{
+            width: 100%;
+        }
+    }
+    .icon{
+        display: flex;
+        justify-content: end;
+        gap: 20px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .FaPlus:hover{
+        color: rgba(214, 22, 22, 0.801);
+    }
+}
+.total{
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 25%);
+    padding: 2%;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
